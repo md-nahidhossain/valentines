@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day Proposal</title>
+    <link rel="stylesheet" href="valentine.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container">
+        <div class="heart heart-1">❤️</div>
+        <div class="heart heart-2">💕</div>
+        <div class="heart heart-3">💗</div>
+        <div class="heart heart-4">❤️</div>
+        <div class="heart heart-5">💖</div>
+        <div class="heart heart-6">💕</div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+        <div class="proposal-box">
+            <!-- Cute Bear Image -->
+            <div class="bear-container">
+                <div class="bear">
+                    <div class="bear-face">
+                        <div class="bear-ears">
+                            <div class="ear left"></div>
+                            <div class="ear right"></div>
+                        </div>
+                        <div class="bear-eyes">
+                            <div class="eye left"></div>
+                            <div class="eye right"></div>
+                        </div>
+                        <div class="bear-nose"></div>
+                        <div class="bear-mouth"></div>
+                        <div class="bear-cheeks">
+                            <div class="cheek left"></div>
+                            <div class="cheek right"></div>
+                        </div>
+                    </div>
+                    <div class="bear-body"></div>
+                </div>
+            </div>
+
+            <!-- Heading -->
+            <h1 class="title">Do u want my Velentain</h1>
+            <p class="subtitle">💝 Will you be my Valentine? 💝</p>
+
+            <!-- Buttons -->
+            <div class="buttons-container">
+                <button id="yesBtn" class="btn yes-btn">
+                    <span class="btn-text">YES</span>
+                    <span class="btn-icon">💕</span>
+                </button>
+                <button id="noBtn" class="btn no-btn">
+                    <span class="btn-text">NO</span>
+                    <span class="btn-icon">💔</span>
+                </button>
+            </div>
+
+            <!-- Hint Text -->
+            <p class="hint">✨ Try to catch the NO button! ✨</p>
+        </div>
+    </div>
+
+    <!-- Success Popup -->
+    <div id="successPopup" class="popup">
+        <div class="popup-content">
+            <div class="celebration">
+                <div class="sparkles">
+                    <span>✨</span><span>💖</span><span>✨</span>
+                    <span>💕</span><span>✨</span><span>💗</span>
+                </div>
+                <div class="big-heart">❤️</div>
+                <h2>YAY! 💕</h2>
+                <p class="popup-message">Happy Valentine's Day!</p>
+                <p class="popup-submessage">You made my day special! 🥹</p>
+                <div class="teddy-celebration">
+                    <div class="teddy">
+                        <div class="teddy-face">
+                            <div class="teddy-ears">
+                                <div class="ear"></div>
+                                <div class="ear"></div>
+                            </div>
+                            <div class="teddy-eyes">
+                                <div class="eye"></div>
+                                <div class="eye"></div>
+                            </div>
+                            <div class="teddy-nose"></div>
+                            <div class="teddy-mouth smile"></div>
+                        </div>
+                        <div class="teddy-body"></div>
+                        <div class="teddy-arms">
+                            <div class="arm left"></div>
+                            <div class="arm right"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-hearts">
+                    <span class="f-heart">❤️</span>
+                    <span class="f-heart">💕</span>
+                    <span class="f-heart">💖</span>
+                    <span class="f-heart">💗</span>
+                    <span class="f-heart">💘</span>
+                </div>
+            </div>
+            <button class="close-popup" onclick="closePopup()">Close 💕</button>
+        </div>
+    </div>
+
+    <script src="valentine.js"></script>
+</body>
+</html>
